@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Summit Stride</title>
+  <link rel="icon" href="img/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+</head>
+
+<body>
+  <header class="container-fluid bg-white py-3 border-bottom position-sticky top-0 z-3">
+    <div class="container-md d-flex justify-content-between align-items-center">
+      <img src="" width="100px" height="60px" alt="Logo" />
+      <div class="header_navbar row justify-content-between align-items-center" style="width: 450px">
+        <div class="col-9 py-0 d-flex">
+          <div class="header_searchbar d-none d-sm-flex input-group align-items-center border rounded-start-pill rounded-end-pill">
+            <span class="px-2">
+              <i class="fa-solid fa-house-flag"></i>
+            </span>
+            <input type="text" class="form-control form-control-sm border-0 rounded-start-pill rounded-end-pill" placeholder="search" />
+          </div>
+          <div class="col-5 d-block d-sm-none border-end text-end">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="header_signup col-7 col-sm-3 fw-semibold d-flex justify-content-evenly align-items-center" style="color: #4c4ddc; text-align: right">
+            <i class="fa-solid fa-user"></i>
+            <p class="mb-0">Sign Up</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container-md my-4">
+    <div class="recipe__title text-center">
+      <h2 class="">All Recipe</h2>
+      <p class="fs-15 mt-2">Find and share everyday cooking inspiration on Allrecipes. Discover recipes, cooks, videos, and how-tos based on the food you love and the friends you follow.</p>
+    </div>
+    <div class="recipe__categories d-flex justify-content-center flex-wrap mb-3">
+      <div class="px-2 mb-2 mt-3">
+        <input type="checkbox" name="" id="btn-check-outlined" class="btn-check" />
+        <label for="btn-check-outlined" class="btn btn-category"> Breakfast </label>
+      </div>
+      <div class="px-2 mb-2 mt-3">
+        <input type="checkbox" name="" id="btn-check-outlined2" class="btn-check" />
+        <label for="btn-check-outlined2" class="btn btn-category"> Dinner </label>
+      </div>
+      <div class="px-2 mb-2 mt-3">
+        <input type="checkbox" name="" id="btn-check-outlined3" class="btn-check" />
+        <label for="btn-check-outlined3" class="btn btn-category"> Lunch </label>
+      </div>
+    </div>
+    <div class="recipe__list-recipe row row-cols-lg-4 row-cols-md-3 row-cols-1">
+      <div class="col">
+        <div class="card position-relative">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=2881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image" class="img-dish card-img-top" />
+          <div class="card-body">
+            <p class="mb-0 text-uppercase">Breakfast</p>
+            <h6 class="fs-5 text-capitalize">Pizza</h6>
+            <p class="mt-1">Recipe by Wahyu</p>
+          </div>
+          <div class="position-absolute text-danger bg-light px-2 py-1 rounded-circle end-0 m-2">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card position-relative">
+          <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=2880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image" class="img-dish card-img-top" />
+          <div class="card-body">
+            <p class="mb-0 text-uppercase">Breakfast</p>
+            <h6 class="fs-5 text-capitalize">Pancake</h6>
+            <p class="mt-1">Recipe by Wahyu Surya</p>
+          </div>
+          <div class="position-absolute text-danger bg-light px-2 py-1 rounded-circle end-0 m-2">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card position-relative">
+          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image" class="img-dish card-img-top" />
+          <div class="card-body">
+            <p class="mb-0 text-uppercase">Breakfast</p>
+            <h6 class="fs-5 text-capitalize">Salad</h6>
+            <p class="mt-1">Recipe by Wahyu</p>
+          </div>
+          <div class="position-absolute text-danger bg-light px-2 py-1 rounded-circle end-0 m-2">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card position-relative">
+          <img src="https://media.istockphoto.com/id/95061412/id/foto/pesta-sandwich-jari-foood.jpg?s=612x612&w=0&k=20&c=1mKRqDLcn-L5Kyfy1Be2mcgU2qt0odBcREEchdlmmHY=" alt="image" class="img-dish card-img-top" />
+          <div class="card-body">
+            <p class="mb-0 text-uppercase">Breakfast</p>
+            <h6 class="fs-5 text-capitalize">Sandwich</h6>
+            <p class="mt-1">Recipe by Wahyu</p>
+          </div>
+          <div class="position-absolute text-danger bg-light px-2 py-1 rounded-circle end-0 m-2">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="container-fluid py-5" style="background-color: #F5F5F5;">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-md-3 col-sm-5 co1-12">
+          <img src="assets/Logo.png" alt="Logo">
+          <p class="py-4 mb-1 fw-semibold fs-4">Follow us on</p> 
+          <div class="fs-3 pb-4" style="color: #4C4DDC;"> 
+            <i class="fa-brands fa-facebook pe-3"></i> 
+            <i class="fa-brands fa-twitter pe-3"></i> 
+            <i class="fa-brands fa-square-instagram pe-3"></i> 
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <p class="d-none d-sm-block">©2022 Tasty Recipe, Inc</p>
+        </div> 
+        <div class="col-md-5 col-sm-1 co1-12"></div> 
+        <div class="col-md-4 col-sm-6 co1-12">
+          <p class="fw-semibold fs-5 mb-3">Get Tasty Recipe News Later</p>
+          <p class="mb-1">
+            Email Address
+            <span class="text-danger">*</span>
+          </p>
+          <input type="text" class="form-control"
+            placeholder="Your email address">
+            <button type="button" class="btn btn-signup rounded-pill mt-4">
+            Sign Up
+            </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/9e88c62f38.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
